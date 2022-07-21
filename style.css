@@ -5,3 +5,83 @@ body {
     color:#40514e;
     font-family: 'Merriweather', serif;
 }
+
+h1 {
+    line-height: 2;
+    color:#AC3F21;
+    font-size: 5.62rem;
+    margin-top: 25px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    color:#AC3F21;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.top-container {
+    background-color:#FCECDD;
+    padding-top: 100px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    padding-top: 25px;
+}
+
+.intro {
+    color: #AC3F21;
+    font-size:1.5rem;
+}
+
+.bottom-cloud {
+
+    position: absolute;
+    left: 150px;
+    top: 600px;
+}
+
+.mountain-img {
+    max-width: 100%;
+}
+
+.cloud-above-sun {
+    position: absolute;
+    right: 200px;
+    padding-top: 150px;
+}
+
+.top-header {
+    border-style: ridge none none;
+    width: 100%;
+    margin: auto;
+}
+
+.middle-container {
+    padding-top: 100px;
+}
+
+hr {
+    padding-top: 40px;
+    border-style: dotted none none;
+    border-color:#EAF6F6;
+    border-width: 10px;
+    height: 0px;
+    width: 5%;
+}
+
+.skill-row {
+    width: 50%;
+    margin:100px auto 100px auto;
+    text-align: left;
+}
+
+.negotiation {
+    max-width: 25%;
+    float: left;
+    margin-right: 30px;
+}
