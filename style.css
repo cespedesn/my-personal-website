@@ -106,4 +106,31 @@ p {
     color:#AC3F21;
     padding-bottom: 80px;
 }
+
+
+.btn {
+    background: #AC3F21;
+    background-image: -webkit-linear-gradient(top, #AC3F21, #CC9544);
+    background-image: -moz-linear-gradient(top, #AC3F21, #CC9544);
+    background-image: -ms-linear-gradient(top, #AC3F21, #CC9544);
+    background-image: -o-linear-gradient(top, #AC3F21, #CC9544);
+    background-image: linear-gradient(to bottom, #AC3F21, #CC9544);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Merriweather', serif;
+    color: #F7F7F7;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
   
+  .btn:hover {
+    background: #FCECDD;
+    background-image: -webkit-linear-gradient(top, #FCECDD, #CC9544);
+    background-image: -moz-linear-gradient(top, #FCECDD, #CC9544);
+    background-image: -ms-linear-gradient(top, #FCECDD, #CC9544);
+    background-image: -o-linear-gradient(top, #FCECDD, #CC9544);
+    background-image: linear-gradient(to bottom, #FCECDD, #CC9544);
+    text-decoration: none;
+}
