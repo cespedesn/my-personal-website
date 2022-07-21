@@ -71,6 +71,11 @@ h3 {
     padding-top: 100px;
 }
 
+.hi-intro {
+    width: 30%;
+    margin: auto;
+}
+
 hr {
     padding-top: 40px;
     border-style: dotted none none;
@@ -125,7 +130,7 @@ p {
     text-decoration: none;
 }
   
-  .btn:hover {
+.btn:hover {
     background: #FCECDD;
     background-image: -webkit-linear-gradient(top, #FCECDD, #CC9544);
     background-image: -moz-linear-gradient(top, #FCECDD, #CC9544);
@@ -133,4 +138,24 @@ p {
     background-image: -o-linear-gradient(top, #FCECDD, #CC9544);
     background-image: linear-gradient(to bottom, #FCECDD, #CC9544);
     text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #D67D3E;
+}
+
+.bottom-container {
+    background-color:#FCECDD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.copyright {
+    font-size: .75rem;
+    color:#AC3F21;
+    padding: 20px 0;
 }
