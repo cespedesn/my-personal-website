@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src= "script.js"defer></script>
     <link rel="stylesheet" href="style.css"/>
     <link rel="icon" href="me-favicon.ico"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -9,15 +10,14 @@
     <title>My Personal Website</title>
   </head>
   <body>
-    <script src= "script.js"></script>
     <div class="top-container">
         <img class="top-cloud"src="website-images/cloud.png" alt="cloud-img">
         <br>
         <br>
         <br>
-        <h1><em>I'm Nef,</em></h1>
+        <h1 ><em> I'm Nef,</em></h1>
         <div class="intro">
-          <h2>An aspiring Software Developer</h2>
+          <h2><marquee scrollamount="15">An aspiring Software Developer</marquee></h2>
         </div>
         <img class="bottom-cloud"src="website-images/cloud.png" alt="cloud-img">
         <img class="mountain-img"src="website-images/sunset mountains.png" alt="mountain-img">
@@ -36,12 +36,12 @@
             <div class="skill-row">
                 <img class="negotiation"src="website-images/meeting puzzle.png"alt="negotiation">
                 <h3>Negotiating</h3>
-                <p> As a seasoned sales person, negotiating eventually came naturally. Knowing how to navigate through high-level conversations has given me not only the experience, but the confidence to pursue other avenues and become an Entrepreneur.</p>
+                <p id="my_Skills" onmouseover="changeBackground()" onmouseout="backToNormal()"> As a seasoned sales person, negotiating eventually came naturally. Knowing how to navigate through high-level conversations has given me not only the experience, but the confidence to pursue other avenues and become an Entrepreneur.</p>
             </div>
             <div class="skill-row">
                 <img class="business" src="website-images/business dev.png" alt="business">
                 <h3>Business Development</h3>
-                <p>The ability to grow and develop a territory is a skill I have gradually improved on. Doing so in the capital of the world (New York City) has been challenging but extremely rewarding!</p>
+                <p id="my_Skills2" onmouseover="changeBackground2()" onmouseout="backToNormal2()">The ability to grow and develop a territory is a skill I have gradually improved on. Doing so in the capital of the world (New York City) has been challenging but extremely rewarding!</p>
             </div>
         </div>
         <hr>
@@ -50,6 +50,7 @@
             <h3>If you'd like to chat about collaborating, lets connect!</h3>
             <p class="contact-message">Feel free to connect with me and join me on my journey of becoming a Software Developer!</p>
             <a class="btn" href="mailto:cesinvestmentholdings@gmail.com">CONTACT ME</a>
+
         </div>
     </div>
     <div class="bottom-container">
